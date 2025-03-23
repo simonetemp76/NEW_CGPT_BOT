@@ -1,0 +1,52 @@
+# config.py - Configurazione del bot
+
+USE_TESTNET = True
+API_KEY = "GqM3BCiJ5O0QezhQpI52hEP1SiT3dZg6Rwt9X5pT32qOn5Vvvo7wfRxxU0EYqq02"
+API_SECRET = "fJRjqVD1CoSQj3uakUQyKyh8qOKK4NDWQcgoVWagKmCdJtRtXRrqd1qI4gGH32DJ"
+
+PERCENT_LOSS = 3.4
+RISK_PERCENT = 0.05
+
+INTERVAL = "4h"
+CYCLE_INTERVAL = 3000
+
+COMMISSION_RATE = 0.001
+SLIPPAGE_RATE = 0.001
+INITIAL_CAPITAL = 1000.0
+
+CHIUDI_ORDINE = "OBV"
+
+TELEGRAM_BOT_NAME = "NEW_BOT_CGPT"
+TELEGRAM_BOT_TOKEN = "8050018287:AAGFwfOdt_aBoLzJJ8AacWrO2G9uJWxXtRg"
+TELEGRAM_CHAT_IDS = [
+    "205924034", # Personale
+]
+
+RSI_PERIOD = 11
+RSI_MA_SPAN = 9
+RSI_LOWER = 20
+RSI_UPPER = 80
+
+BB_WINDOW = 23
+BB_NUM_STD = 3.4
+
+ADX_WINDOW = 26
+ADX_BUY_THRESHOLD = 20
+ADX_SELL_THRESHOLD = 35
+
+ML_RETRAIN_INTERVAL = 50
+FEATURE_NAMES = ["RSI", "RSI_MA", "OBV", "OBV_MA", "ADX_BUY_THRESHOLD", "ADX_SELL_THRESHOLD", "ADX_WINDOW"]
+
+from symbols_config import SYMBOLS
+
+BOT_SETTINGS = {
+    "timeframe": INTERVAL,
+    "cycle_interval": CYCLE_INTERVAL,
+    "rsi_lower": RSI_LOWER,
+    "rsi_upper": RSI_UPPER,
+    "percent_loss": 7,
+    "bb_window": BB_WINDOW,
+    "bb_num_std": BB_NUM_STD,
+    "adx_buy_threshold": ADX_BUY_THRESHOLD,
+    "adx_sell_threshold": ADX_SELL_THRESHOLD
+}

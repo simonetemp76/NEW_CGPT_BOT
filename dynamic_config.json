@@ -1,0 +1,101 @@
+{
+    "SOLBTC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "SOLUSDT": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "SOLUSDC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "BNBUSDC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "ETHUSDC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "BNBBTC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "BNBUSDT": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "ETHUSDT": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    },
+    "ETHBTC": {
+        "timeframe": "4h",
+        "cycle_interval": 3000,
+        "rsi_lower": 20,
+        "rsi_upper": 80,
+        "percent_loss": 7,
+        "bb_window": 23,
+        "bb_num_std": 3.4,
+        "adx_buy_threshold": 20,
+        "adx_sell_threshold": 35
+    }
+}

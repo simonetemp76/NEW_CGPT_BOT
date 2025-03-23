@@ -1,0 +1,17 @@
+[
+    {
+        "timestamp": "2025-03-22 18:00:19",
+        "report_type": "daily",
+        "report_message": "📈 **Report Performance Giornaliero** 📈\n📅 Data: 2025-03-22\n--------------------------------------\nTotale operazioni: 0\nBUY: 0\nSELL: 0\nProfitto Totale: 0.00% / 0.00\nProfitto per simbolo:\n",
+        "performance_data": {
+            "total_trades": 0,
+            "total_profit": 0.0,
+            "total_profit_usdc": 0.0,
+            "buy_trades": 0,
+            "sell_trades": 0,
+            "symbol_profit": {},
+            "symbol_profit_usdc": {},
+            "alerts": []
+        }
+    }
+]
